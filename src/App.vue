@@ -1,12 +1,14 @@
 <template>
   <div class="logo">
-  <img  src="@/assets/logo.png">
+    <img src="@/assets/logo.png" />
   </div>
- <div class="container">
+  <div class="container">
     <h1>Cardápio do Refeitório IFC</h1>
-  <div>
-    <a class="info" href="saibamais.html">Saiba mais</a>
-  </div>
+    <div>
+      <a class="info" href="saibamais.html">Saiba mais</a>
+      <a class="info" href="Home.html">Home</a>
+      <a class="info" href="Objetivos e Benefícios.html">Objetivos e Benefícios</a>
+    </div>
 
     <!-- Filtros para Sem Glúten e Vegetariano -->
     <div class="filters">
@@ -70,6 +72,8 @@ export default {
           sobremesa: 'Banana',
           semGluten: true,
           vegetariano: false,
+
+
         },
         {
           dia: 'Quarta-feira',
@@ -127,7 +131,7 @@ body {
   font-family: Arial, sans-serif;
 } */
 
-.logo{
+.logo {
   display: flex;
   align-items: center;
 }
@@ -183,4 +187,3 @@ h1 {
   }
 }
 </style>
-
